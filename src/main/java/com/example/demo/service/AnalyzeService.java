@@ -25,8 +25,6 @@ import java.util.List;
 @RequiredArgsConstructor
 @Service
 public class AnalyzeService {
-
-
     @Value("${azure.sub.key}")
     private String subscriptionKey;
 
